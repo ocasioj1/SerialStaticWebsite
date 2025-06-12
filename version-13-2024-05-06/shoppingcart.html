@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Koulen&family=Palanquin+Dark:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <img class="logo"  onclick=goLand() src="serialstatic-logo-white.png" alt="Serial Static Logo">
+        <br>
+        <h1>Shopping Cart</h1>
+        <br>        
+    </header>
+    <nav>
+        
+        <a href="newhome.html">home</a>
+        <a href="newsale.html">sale</a>
+        <a href="newfem.html">feminine</a>
+        <a href="newmasc.html">masculine</a>
+        <a href="newabout.html">about</a>
+        <a href="newcontact.html">contact</a>
+        <a href="newfaq.html">faq</a>
+        <a href='shoppingcart.html' id="shoppingcart.html" class="cart-icon">
+            <span id="cartCount" class="cart-count-badge">0</span>
+        </a>
+
+    </nav>
+    <main class="backgroundColor">
+        <h1 class="cartheader">Your Items</h1>
+        <br>
+        <div class="button-group">
+            <button class="cartbuttons" onclick="proceedToCheckout()">Proceed to Checkout</button>
+            <button class="cartbuttons" onclick="continueShopping()">Continue Shopping</button>
+        </div>
+    </main>
+    
+    <script src="newjava.js"></script>
+</body>
+</html>
